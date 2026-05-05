@@ -4,7 +4,10 @@ import {FaUsers} from "react-icons/fa"
 import { FaBirthdayCake } from 'react-icons/fa'
 import HeroSection from '../../Components/HeroSection'
 import MenuSection from '../../Components/MenuSection'
-import Feedback from '../../Components/Feedback'
+import AboutUs from '../../Components/AboutUs'
+import Offers from '../../Components/Offers'
+import WhyChooseUs from '../../Components/WhyChooseUs'
+import Testimonials from '../../Components/Testimonials'
 
 const Home = () => {
   return (
@@ -12,8 +15,10 @@ const Home = () => {
 
       <HeroSection/>
       <MenuSection/>
-      <Feedback/>
-
+      <AboutUs/>
+      <Offers />
+      <WhyChooseUs />
+      <Testimonials/>
     </main>
   );
 }
