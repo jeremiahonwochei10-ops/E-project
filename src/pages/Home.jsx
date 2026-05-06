@@ -1,12 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
-import HeroSection from "../../Components/HeroSection";
-import MenuSection from "../../Components/MenuSection";
-import AboutUs from "../../Components/AboutUs";
-import Offers from "../../Components/Offers";
-import WhyChooseUs from "../../Components/WhyChooseUs";
-import Testimonials from "../../Components/Testimonials";
-import Contact from "../../Components/Contact";
+import HeroSection from "../Components/HeroSection";
+import MenuSection from "../Components/MenuSection";
+import AboutUs from "../Components/AboutUs";
+import Offers from "../Components/Offers";
+import WhyChooseUs from "../Components/WhyChooseUs";
+import Testimonials from "../Components/Testimonials";
+import Contact from "../Components/Contact";
 
 const sectionVariant = {
   hidden: { opacity: 0, y: 40 },

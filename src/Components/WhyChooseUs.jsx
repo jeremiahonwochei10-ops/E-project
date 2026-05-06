@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import butter from "../assets/pages/image/butter.png";
-import bakedDaily from "../assets/pages/image/baked-daily.png";
-import basket from "../assets/pages/image/basket.png";
-import leaf from "../assets/pages/image/leaf.png";
+import butter from "../assets/image/butter.png";
+import bakedDaily from "../assets/image/baked-daily.png";
+import basket from "../assets/image/basket.png";
+import leaf from "../assets/image/leaf.png";
 
 const sectionContainer = {
   hidden: {},

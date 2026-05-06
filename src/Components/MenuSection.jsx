@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import ChocCake from "../assets/pages/image/choc-cake2.jpg";
-import croissant from "../assets/pages/image/croissant.jpg";
-import chocChip from "../assets/pages/image/choc-chip.jpg";
-import berryPie from "../assets/pages/image/berry-pie.jpg";
-import bakeryTool from "../assets/pages/image/bakery-tool2.png";
+import ChocCake from "../assets/image/choc-cake2.jpg";
+import croissant from "../assets/image/croissant.jpg";
+import chocChip from "../assets/image/choc-chip.jpg";
+import berryPie from "../assets/image/berry-pie.jpg";
+import bakeryTool from "../assets/image/bakery-tool2.png";
 import { Link } from "react-router-dom";
 const sectionContainer = {
   hidden: {},

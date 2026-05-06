@@ -2,15 +2,15 @@ import React from "react";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Components/Header";
-import Home from "./assets/pages/Home";
-import AboutUsPage from "./assets/pages/AboutUs";
-import Menu from "./assets/pages/Menu";
-import Merchandise from "./assets/pages/Merchandise";
-import Gallery from "./assets/pages/Gallery";
-import FeedBack from "./assets/pages/FeedBack";
-import FAQs from "./assets/pages/FAQs";
-import ContactUs from "./assets/pages/ContactUs";
-import SiteMap from "./assets/pages/SiteMap";
+import Home from "./pages/Home";
+import AboutUsPage from "./pages/AboutUs";
+import Menu from "./pages/Menu";
+import Merchandise from "./pages/Merchandise";
+import Gallery from "./pages/Gallery";
+import FeedBack from "./pages/FeedBack";
+import FAQs from "./pages/FAQs";
+import ContactUs from "./pages/ContactUs";
+import SiteMap from "./pages/SiteMap";
 import Footer from "./Components/Footer";
 
 const App = () => {

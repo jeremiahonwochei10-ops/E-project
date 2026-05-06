@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/pages/image/baker-logo.png";
+import logo from "../assets/image/baker-logo.png";
 import { TbRuler2Off } from "react-icons/tb";
 
 import { RiUserFollowLine } from "react-icons/ri";

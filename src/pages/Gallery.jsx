@@ -1,16 +1,19 @@
 import React from "react";
 import { motion } from "framer-motion";
-import ChocCake from "./image/choc-cake2.jpg";
-import croissant from "./image/croissant.jpg";
-import chocChip from "./image/choc-chip.jpg";
-import berryPie from "./image/berry-pie.jpg";
-
+import ChocCake from "../assets/image/choc-cake2.jpg";
+import croissant from "../assets/image/croissant.jpg";
+import chocChip from "../assets/image/choc-chip.jpg";
+import berryPie from "../assets/image/berry-pie.jpg";
+import velvet from "../assets/image/red velvet cake.jpg"
+import strawberry from "../assets/image/strawberry.jpg"
 
 const photos = [
   { src: ChocCake, label: "Signature chocolate cake" },
   { src: croissant, label: "Buttery croissants" },
   { src: chocChip, label: "Cookie collection" },
   { src: berryPie, label: "Fresh berry pie" },
+  {src: velvet, label: "Red Velvet Cake"},
+  {src: strawberry, label: "StrawberryCream Cake"}
 
 ];
 
