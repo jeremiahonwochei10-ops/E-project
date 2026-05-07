@@ -1,20 +1,26 @@
 import React from "react";
 import { motion } from "framer-motion";
+import mug from "../assets/image/mug.jpg";
+import apron from "../assets/image/apron.jpg";
+import gift from "../assets/image/giftbox.jpg";
 
 const merchItems = [
   {
+    image: mug,
     title: "Bakerz Bite Mug",
-    price: "N3,500",
+    price: "$6",
     description: "Enjoy your morning drink in branded bakery style.",
   },
   {
+    image: apron,
     title: "Signature Apron",
-    price: "N4,200",
+    price: "$15",
     description: "Perfect for home bakers who love a polished kitchen look.",
   },
   {
+    image: gift,
     title: "Gift Box",
-    price: "N5,500",
+    price: "$20",
     description: "A curated selection of sweets for special celebrations.",
   },
 ];

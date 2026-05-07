@@ -39,14 +39,14 @@ const menuItems = [
   {
     image: croissant,
     title: "Butter Croissant",
-    price: "N12",
+    price: "$12",
     description:
       "Flaky, buttery, golden. Our croissants are hand-rolled every morning and baked fresh to perfection.",
   },
   {
     image: cinnamon,
     title: "Cinnamon Danish",
-    price: "N4,500",
+    price: "$10",
     description:
       "Soft, fluffy pastry swirled with cinnamon sugar and drizzled with a light vanilla glaze. Warm and comforting..",
   },
