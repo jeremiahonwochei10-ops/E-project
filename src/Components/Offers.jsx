@@ -73,10 +73,10 @@ function Offers() {
             variants={cardFade}
           >
             <h3 className="text-2xl font-medium text-[#2e5996]">
-              Free Drink With Orders Over ₦10,000
+              Free Drink With Orders Over $10
             </h3>
             <p className="text-lg text-[#555555] mt-2">
-              Spend ₦10,000 or more in a single visit and enjoy a complimentary
+              Spend $10 or more in a single visit and enjoy a complimentary
               beverage on us.
             </p>
           </motion.div>

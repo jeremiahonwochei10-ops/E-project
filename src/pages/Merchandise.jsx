@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import mug from "../assets/image/mug.jpg";
 import apron from "../assets/image/apron.jpg";
 import gift from "../assets/image/giftbox.jpg";
+import { Link } from "react-router-dom";
 
 const merchItems = [
   {
@@ -76,9 +77,11 @@ function Merchandise() {
               <span className="text-lg font-semibold text-[#1f1f1f]">
                 {item.price}
               </span>
-              <button className="rounded-3xl bg-[#2e5996] px-5 py-3 text-white text-sm font-semibold transition hover:bg-[#244b85]">
-                Add to Cart
-              </button>
+              <Link to={"/contact-us"}>
+                <button className="rounded-3xl bg-[#2e5996] px-5 py-3 text-white text-sm font-semibold transition hover:bg-[#244b85]">
+                  Order Now
+                </button>
+              </Link>
             </div>
           </motion.div>
         ))}
